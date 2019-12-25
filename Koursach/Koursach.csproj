@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{29560F6B-8F84-49F0-95F7-AE37986A6F29}</ProjectGuid>
+    <ProjectTypeGuids>{A3F8F2AB-B479-4A4A-A458-A89E7DC349F1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Koursach</RootNamespace>
+    <AssemblyName>Koursach</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <TargetFrameworkIdentifier>Xamarin.Mac</TargetFrameworkIdentifier>
+    <MonoMacResourcePrefix>Resources</MonoMacResourcePrefix>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <EnableCodeSigning>false</EnableCodeSigning>
+    <CodeSigningKey>Mac Developer</CodeSigningKey>
+    <CreatePackage>false</CreatePackage>
+    <EnablePackageSigning>false</EnablePackageSigning>
+    <IncludeMonoRuntime>false</IncludeMonoRuntime>
+    <UseSGen>true</UseSGen>
+    <UseRefCounting>true</UseRefCounting>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <EnableCodeSigning>false</EnableCodeSigning>
+    <CreatePackage>true</CreatePackage>
+    <EnablePackageSigning>false</EnablePackageSigning>
+    <IncludeMonoRuntime>true</IncludeMonoRuntime>
+    <UseSGen>true</UseSGen>
+    <UseRefCounting>true</UseRefCounting>
+    <LinkMode>SdkOnly</LinkMode>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.Mac" />
+  </ItemGroup>
+  <ItemGroup>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-128.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-128%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-16.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-16%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-256.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-256%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-32.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-32%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-512.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-512%402x.png" />
+    <ImageAsset Include="Assets.xcassets\Contents.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+    <Folder Include="Subviews\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Info.plist" />
+    <None Include="Entitlements.plist" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="ViewController.cs" />
+    <Compile Include="ViewController.designer.cs">
+      <DependentUpon>ViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sources\SourceListView.cs" />
+    <Compile Include="Sources\SourceListItem.cs" />
+    <Compile Include="Sources\SourceListDelegate.cs" />
+    <Compile Include="Sources\SourceListDataSource.cs" />
+    <Compile Include="Models\EventModel.cs" />
+    <Compile Include="Models\PeopleModel.cs" />
+    <Compile Include="Models\MultiSportsmanModel.cs" />
+    <Compile Include="Models\SportsmanWithTrainer.cs" />
+    <Compile Include="Models\OrganizationModel.cs" />
+    <Compile Include="Models\SportBuildings.cs" />
+    <Compile Include="Models\SportsmanWithValue.cs" />
+    <Compile Include="SQLiteAsync.cs" />
+    <Compile Include="SQLite.cs" />
+    <Compile Include="ORMDataSources\OrganizationORMDataSource.cs" />
+    <Compile Include="ORMDataSources\SportsmanWValueORMDataSource.cs" />
+    <Compile Include="ORMDataSources\SportsmanWTrainerORMDataSource.cs" />
+    <Compile Include="ORMDataSources\EventORMDataSource.cs" />
+    <Compile Include="ORMDataSources\MultiSportsmanORMDataSource.cs" />
+    <Compile Include="ORMDataSources\SportBuildingsORMDataSource.cs" />
+    <Compile Include="ORMDataSources\SportsmanORMDataSource.cs" />
+    <Compile Include="ORMDelegate\MultiSportsmanORMDelegate.cs" />
+    <Compile Include="ORMDelegate\SportBuildingsORMDelegate.cs" />
+    <Compile Include="ORMDelegate\SportsmanWValueORMDelegate.cs" />
+    <Compile Include="ORMDelegate\SportsmanORMDelegate.cs" />
+    <Compile Include="ORMDelegate\SportsmanWTrainerORMDelegate.cs" />
+    <Compile Include="ORMDelegate\OrganizationORMDelegate.cs" />
+    <Compile Include="ORMDelegate\EventORMDelegate.cs" />
+    <Compile Include="ReplaceViewSegue.cs" />
+    <Compile Include="SportBuildingsSubview.cs" />
+    <Compile Include="SportBuildingsSubviewController.cs" />
+    <Compile Include="SportBuildingsSubview.designer.cs">
+      <DependentUpon>SportBuildingsSubview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SportBuildingsSubviewController.designer.cs">
+      <DependentUpon>SportBuildingsSubviewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrganizationSubview.cs" />
+    <Compile Include="OrganizationSubviewController.cs" />
+    <Compile Include="OrganizationSubview.designer.cs">
+      <DependentUpon>OrganizationSubview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrganizationSubviewController.designer.cs">
+      <DependentUpon>OrganizationSubviewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SportsmanSubview.cs" />
+    <Compile Include="SportsmanSubviewController.cs" />
+    <Compile Include="SportsmanSubview.designer.cs">
+      <DependentUpon>SportsmanSubview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SportsmanSubviewController.designer.cs">
+      <DependentUpon>SportsmanSubviewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventSubview.cs" />
+    <Compile Include="EventSubviewController.cs" />
+    <Compile Include="EventSubview.designer.cs">
+      <DependentUpon>EventSubview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventSubviewController.designer.cs">
+      <DependentUpon>EventSubviewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MultiSportsmanSubview.cs" />
+    <Compile Include="MultiSportsmanSubviewController.cs" />
+    <Compile Include="MultiSportsmanSubview.designer.cs">
+      <DependentUpon>MultiSportsmanSubview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MultiSportsmanSubviewController.designer.cs">
+      <DependentUpon>MultiSportsmanSubviewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SWTrainerSubview.cs" />
+    <Compile Include="SWTrainerSubviewController.cs" />
+    <Compile Include="SWTrainerSubview.designer.cs">
+      <DependentUpon>SWTrainerSubview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SWTrainerSubviewController.designer.cs">
+      <DependentUpon>SWTrainerSubviewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SportsmanQuerySubview.cs" />
+    <Compile Include="SportsmanQuerySubviewController.cs" />
+    <Compile Include="SportsmanQuerySubview.designer.cs">
+      <DependentUpon>SportsmanQuerySubview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SportsmanQuerySubviewController.designer.cs">
+      <DependentUpon>SportsmanQuerySubviewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataSources\EventQueryORMDataSource.cs" />
+    <Compile Include="ORMDelegate\EventQueryORMDelegate.cs" />
+    <Compile Include="EventQuerySubview.cs" />
+    <Compile Include="EventQuerySubviewController.cs" />
+    <Compile Include="EventQuerySubview.designer.cs">
+      <DependentUpon>EventQuerySubview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventQuerySubviewController.designer.cs">
+      <DependentUpon>EventQuerySubviewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProfileSheet.cs" />
+    <Compile Include="ProfileSheet.designer.cs">
+      <DependentUpon>ProfileSheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProfileSheetController.cs" />
+    <Compile Include="ProfileSheetController.designer.cs">
+      <DependentUpon>ProfileSheetController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventSheet.cs" />
+    <Compile Include="EventSheet.designer.cs">
+      <DependentUpon>EventSheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventSheetController.cs" />
+    <Compile Include="EventSheetController.designer.cs">
+      <DependentUpon>EventSheetController.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="Main.storyboard" />
+    <InterfaceDefinition Include="SportBuildingsSubview.xib" />
+    <InterfaceDefinition Include="OrganizationSubview.xib" />
+    <InterfaceDefinition Include="SportsmanSubview.xib" />
+    <InterfaceDefinition Include="EventSubview.xib" />
+    <InterfaceDefinition Include="MultiSportsmanSubview.xib" />
+    <InterfaceDefinition Include="SWTrainerSubview.xib" />
+    <InterfaceDefinition Include="SportsmanQuerySubview.xib" />
+    <InterfaceDefinition Include="EventQuerySubview.xib" />
+    <InterfaceDefinition Include="ProfileSheet.xib" />
+    <InterfaceDefinition Include="EventSheet.xib" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\calendar%402x.png" />
+    <BundleResource Include="Resources\calendar.png" />
+    <BundleResource Include="Resources\info.png" />
+    <BundleResource Include="Resources\info%402x.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Mac\Xamarin.Mac.CSharp.targets" />
+</Project>

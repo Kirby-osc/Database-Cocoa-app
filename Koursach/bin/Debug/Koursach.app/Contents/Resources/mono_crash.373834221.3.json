@@ -1,0 +1,371 @@
+{
+  "protocol_version" : "0.0.4",
+  "configuration" : {
+    "version" : "(6.4.0) (2019-06-xcode11.2/3775d5ac0ad)",
+    "tlc" : "normal",
+    "sigsgev" : "altstack",
+    "notifications" : "kqueue",
+    "architecture" : "amd64",
+    "disabled_features" : "none",
+    "smallconfig" : "disabled",
+    "bigarrays" : "disabled",
+    "softdebug" : "enabled",
+    "interpreter" : "enabled",
+    "llvm_support" : "disabled",
+    "suspend" : "preemptive"
+  },
+  "memory" : {
+    "Resident Size" : "73859072",
+    "Virtual Size" : "5116936192",
+    "minor_gc_time" : "19821",
+    "major_gc_time" : "0",
+    "minor_gc_count" : "1",
+    "major_gc_count" : "0",
+    "major_gc_time_concurrent" : "0"
+ },
+  "threads" : [
+ {
+    "is_managed" : false,
+    "offset_free_hash" : "0x0",
+    "offset_rich_hash" : "0x0",
+    "crashed" : false,
+    "native_thread_id" : "0x70000dab9000",
+    "thread_info_addr" : "0x7fe4bb022000",
+    "thread_name" : "Debugger agent",
+    "ctx" : {
+      "IP" : "0x7fff6ce5780e",
+      "SP" : "0x70000dab8ad8",
+      "BP" : "0x70000dab8b30"
+  },
+    "unmanaged_frames" : [
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+
+  ]
+ },
+ {
+    "is_managed" : false,
+    "offset_free_hash" : "0x0",
+    "offset_rich_hash" : "0x0",
+    "crashed" : false,
+    "native_thread_id" : "0x70000d8b6000",
+    "thread_info_addr" : "0x7fe4bb800000",
+    "thread_name" : "Finalizer",
+    "ctx" : {
+      "IP" : "0x7fff6ce54296",
+      "SP" : "0x70000d8b5e08",
+      "BP" : "0x70000d8b5ec0"
+  },
+    "unmanaged_frames" : [
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+
+  ]
+ },
+ {
+    "is_managed" : true,
+    "offset_free_hash" : "0x373834221",
+    "offset_rich_hash" : "0x373834341",
+    "crashed" : true,
+    "native_thread_id" : "0x11d800dc0",
+    "thread_info_addr" : "0x7fe4bb006200",
+    "thread_name" : "tid_307",
+    "ctx" : {
+      "IP" : "0x7fff6ce5a7fa",
+      "SP" : "0x7ffee0a353f8",
+      "BP" : "0x7ffee0a35420"
+  },
+    "managed_frames" : [
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "is_managed" : "true",
+      "guid" : "E3680806-EE9A-47FE-8A96-D30BC69CD44D",
+      "token" : "0x00000",
+      "native_offset" : "0x0",
+      "filename" : "Xamarin.Mac.dll",
+      "sizeofimage" : "0x14ca000",
+      "timestamp" : "0x8d039bfe",
+      "il_offset" : "0xffffffff"
+   }
+,
+  {
+      "is_managed" : "true",
+      "guid" : "E3680806-EE9A-47FE-8A96-D30BC69CD44D",
+      "token" : "0x6010f23",
+      "native_offset" : "0x0",
+      "filename" : "Xamarin.Mac.dll",
+      "sizeofimage" : "0x14ca000",
+      "timestamp" : "0x8d039bfe",
+      "il_offset" : "0x00032"
+   }
+,
+  {
+      "is_managed" : "true",
+      "guid" : "CF8AC64D-98F0-4010-AE4B-2E27AFDDB502",
+      "token" : "0x60001ba",
+      "native_offset" : "0x0",
+      "filename" : "Koursach.exe",
+      "sizeofimage" : "0x24000",
+      "timestamp" : "0x5dffa2a8",
+      "il_offset" : "0x0004a"
+   }
+,
+  {
+      "is_managed" : "true",
+      "guid" : "CF8AC64D-98F0-4010-AE4B-2E27AFDDB502",
+      "token" : "0x60001c6",
+      "native_offset" : "0x0",
+      "filename" : "Koursach.exe",
+      "sizeofimage" : "0x24000",
+      "timestamp" : "0x5dffa2a8",
+      "il_offset" : "0x00007"
+   }
+,
+  {
+      "is_managed" : "true",
+      "guid" : "CF8AC64D-98F0-4010-AE4B-2E27AFDDB502",
+      "token" : "0x60001f6",
+      "native_offset" : "0x0",
+      "filename" : "Koursach.exe",
+      "sizeofimage" : "0x24000",
+      "timestamp" : "0x5dffa2a8",
+      "il_offset" : "0x0000e"
+   }
+,
+  {
+      "is_managed" : "true",
+      "guid" : "CF8AC64D-98F0-4010-AE4B-2E27AFDDB502",
+      "token" : "0x60001fd",
+      "native_offset" : "0x0",
+      "filename" : "Koursach.exe",
+      "sizeofimage" : "0x24000",
+      "timestamp" : "0x5dffa2a8",
+      "il_offset" : "0x0004c"
+   }
+,
+  {
+      "is_managed" : "true",
+      "guid" : "CF8AC64D-98F0-4010-AE4B-2E27AFDDB502",
+      "token" : "0x00000",
+      "native_offset" : "0x0",
+      "filename" : "Koursach.exe",
+      "sizeofimage" : "0x24000",
+      "timestamp" : "0x5dffa2a8",
+      "il_offset" : "0xffffffff"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "is_managed" : "true",
+      "guid" : "E3680806-EE9A-47FE-8A96-D30BC69CD44D",
+      "token" : "0x00000",
+      "native_offset" : "0x0",
+      "filename" : "Xamarin.Mac.dll",
+      "sizeofimage" : "0x14ca000",
+      "timestamp" : "0x8d039bfe",
+      "il_offset" : "0xffffffff"
+   }
+,
+  {
+      "is_managed" : "true",
+      "guid" : "E3680806-EE9A-47FE-8A96-D30BC69CD44D",
+      "token" : "0x600cd9d",
+      "native_offset" : "0x0",
+      "filename" : "Xamarin.Mac.dll",
+      "sizeofimage" : "0x14ca000",
+      "timestamp" : "0x8d039bfe",
+      "il_offset" : "0x00040"
+   }
+,
+  {
+      "is_managed" : "true",
+      "guid" : "CF8AC64D-98F0-4010-AE4B-2E27AFDDB502",
+      "token" : "0x60001b6",
+      "native_offset" : "0x0",
+      "filename" : "Koursach.exe",
+      "sizeofimage" : "0x24000",
+      "timestamp" : "0x5dffa2a8",
+      "il_offset" : "0x00007"
+   }
+,
+  {
+      "is_managed" : "true",
+      "guid" : "CF8AC64D-98F0-4010-AE4B-2E27AFDDB502",
+      "token" : "0x00000",
+      "native_offset" : "0x0",
+      "filename" : "Koursach.exe",
+      "sizeofimage" : "0x24000",
+      "timestamp" : "0x5dffa2a8",
+      "il_offset" : "0xffffffff"
+   }
+
+  ],
+  "unmanaged_frames" : [
+ {
+    "native_address" : "unregistered"
+  }
+,
+ {
+    "native_address" : "unregistered"
+  }
+,
+ {
+    "native_address" : "unregistered"
+  }
+,
+ {
+    "native_address" : "unregistered"
+  }
+,
+ {
+    "native_address" : "unregistered"
+  }
+,
+ {
+    "native_address" : "unregistered"
+  }
+,
+ {
+    "native_address" : "unregistered"
+  }
+,
+ {
+    "native_address" : "unregistered"
+  }
+,
+ {
+    "native_address" : "unregistered"
+  }
+,
+ {
+    "native_address" : "unregistered"
+  }
+,
+ {
+    "native_address" : "unregistered"
+  }
+,
+ {
+    "native_address" : "unregistered"
+  }
+,
+ {
+    "native_address" : "unregistered"
+  }
+,
+ {
+    "native_address" : "unregistered"
+  }
+,
+ {
+    "native_address" : "unregistered"
+  }
+,
+ {
+    "native_address" : "unregistered"
+  }
+,
+ {
+    "native_address" : "unregistered"
+  }
+,
+ {
+    "native_address" : "unregistered"
+  }
+,
+ {
+    "native_address" : "unregistered"
+  }
+,
+ {
+    "native_address" : "unregistered"
+  }
+
+ ]
+}
+]
+}

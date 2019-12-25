@@ -1,0 +1,50 @@
+﻿<Properties StartupConfiguration="{29560F6B-8F84-49F0-95F7-AE37986A6F29}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Koursach/ORMDelegate/EventORMDelegate.cs">
+    <Files>
+      <File FileName="Koursach/ViewController.cs" Line="109" Column="54" />
+      <File FileName="Koursach/ORMDataSources/EventQueryORMDataSource.cs" Line="37" Column="81" />
+      <File FileName="Koursach/Models/SportBuildings.cs" />
+      <File FileName="Koursach/ORMDataSources/SportBuildingsORMDataSource.cs" />
+      <File FileName="Koursach/ORMDelegate/SportBuildingsORMDelegate.cs" Line="1" Column="1" />
+      <File FileName="Koursach/Models/EventModel.cs" Line="10" Column="15" />
+      <File FileName="Koursach/Models/MultiSportsmanModel.cs" Line="21" Column="19" />
+      <File FileName="Koursach/ORMDelegate/EventORMDelegate.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Koursach" expanded="True">
+            <Node name="Koursach" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="ORMDataSources" expanded="True" />
+              <Node name="ORMDelegate" expanded="True">
+                <Node name="EventORMDelegate.cs" selected="True" />
+              </Node>
+              <Node name="EventSheetController.cs" expanded="True" />
+              <Node name="MultiSportsmanSubviewController.cs" expanded="True" />
+              <Node name="ProfileSheetController.cs" expanded="True" />
+              <Node name="ViewController.cs" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/dmitrijmartanov/Projects/Koursach/Koursach/Subviews/5do3vkh1.1gj~" relfile="Koursach/Subviews/5do3vkh1.1gj~" line="76" column="1" />
+      <Breakpoint file="/Users/dmitrijmartanov/Projects/Koursach/Koursach/Subviews/5do3vkh1.1gj~" relfile="Koursach/Subviews/5do3vkh1.1gj~" line="31" column="1" />
+      <Breakpoint file="/Users/dmitrijmartanov/Projects/Koursach/Koursach/Subviews/5do3vkh1.1gj~" relfile="Koursach/Subviews/5do3vkh1.1gj~" line="39" column="1" />
+      <Breakpoint file="/Users/dmitrijmartanov/Projects/Koursach/Koursach/Subviews/5do3vkh1.1gj~" relfile="Koursach/Subviews/5do3vkh1.1gj~" line="44" column="1" />
+      <Breakpoint file="/Users/dmitrijmartanov/Projects/Koursach/Koursach/Subviews/5do3vkh1.1gj~" relfile="Koursach/Subviews/5do3vkh1.1gj~" line="46" column="1" />
+      <Breakpoint file="/Users/dmitrijmartanov/Projects/Koursach/Koursach/Subviews/5do3vkh1.1gj~" relfile="Koursach/Subviews/5do3vkh1.1gj~" line="45" column="1" />
+      <Breakpoint file="/Users/dmitrijmartanov/Projects/Koursach/Koursach/Subviews/5do3vkh1.1gj~" relfile="Koursach/Subviews/5do3vkh1.1gj~" line="40" column="1" />
+      <Breakpoint file="/Users/dmitrijmartanov/Projects/Koursach/Koursach/Subviews/5do3vkh1.1gj~" relfile="Koursach/Subviews/5do3vkh1.1gj~" line="41" column="1" />
+      <Breakpoint file="/Users/dmitrijmartanov/Projects/Koursach/Koursach/Subviews/5do3vkh1.1gj~" relfile="Koursach/Subviews/5do3vkh1.1gj~" line="79" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Koursach PreferredExecutionTarget="Test1" />
+</Properties>

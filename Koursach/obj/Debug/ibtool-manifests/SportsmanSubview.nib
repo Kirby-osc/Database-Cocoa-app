@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.ibtool.document.errors</key>
+	<dict/>
+	<key>com.apple.ibtool.document.notices</key>
+	<dict>
+		<key>9G5-vg-iyg</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>9G5-vg-iyg</string>
+				</array>
+				<key>message</key>
+				<string>View is clipping its content</string>
+				<key>type</key>
+				<string>IBIssueTypeClippedContent</string>
+				<key>type-value</key>
+				<integer>13</integer>
+			</dict>
+		</array>
+		<key>LoA-V4-8fP</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>LoA-V4-8fP</string>
+				</array>
+				<key>message</key>
+				<string>View is clipping its content</string>
+				<key>type</key>
+				<string>IBIssueTypeClippedContent</string>
+				<key>type-value</key>
+				<integer>13</integer>
+			</dict>
+		</array>
+		<key>OFL-7x-zf5</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>OFL-7x-zf5</string>
+				</array>
+				<key>message</key>
+				<string>View is clipping its content</string>
+				<key>type</key>
+				<string>IBIssueTypeClippedContent</string>
+				<key>type-value</key>
+				<integer>13</integer>
+			</dict>
+		</array>
+		<key>cGy-9a-FkT</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>cGy-9a-FkT</string>
+				</array>
+				<key>message</key>
+				<string>View is clipping its content</string>
+				<key>type</key>
+				<string>IBIssueTypeClippedContent</string>
+				<key>type-value</key>
+				<integer>13</integer>
+			</dict>
+		</array>
+		<key>d8u-oZ-nGh</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>d8u-oZ-nGh</string>
+				</array>
+				<key>message</key>
+				<string>View is clipping its content</string>
+				<key>type</key>
+				<string>IBIssueTypeClippedContent</string>
+				<key>type-value</key>
+				<integer>13</integer>
+			</dict>
+		</array>
+		<key>duw-Pw-hfU</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>duw-Pw-hfU</string>
+				</array>
+				<key>message</key>
+				<string>View is clipping its content</string>
+				<key>type</key>
+				<string>IBIssueTypeClippedContent</string>
+				<key>type-value</key>
+				<integer>13</integer>
+			</dict>
+		</array>
+		<key>guA-4p-ezJ</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>guA-4p-ezJ</string>
+				</array>
+				<key>message</key>
+				<string>View is clipping its content</string>
+				<key>type</key>
+				<string>IBIssueTypeClippedContent</string>
+				<key>type-value</key>
+				<integer>13</integer>
+			</dict>
+		</array>
+		<key>ig9-7k-eKc</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>ig9-7k-eKc</string>
+				</array>
+				<key>message</key>
+				<string>View is clipping its content</string>
+				<key>type</key>
+				<string>IBIssueTypeClippedContent</string>
+				<key>type-value</key>
+				<integer>13</integer>
+			</dict>
+		</array>
+	</dict>
+	<key>com.apple.ibtool.document.warnings</key>
+	<dict/>
+</dict>
+</plist>
