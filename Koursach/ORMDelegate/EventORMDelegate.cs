@@ -30,6 +30,7 @@ namespace Koursach
             if (view == null)
             {
                 view = new NSTextField();
+                //bruh
                 view.Identifier = CellIdentifier;
                 view.BackgroundColor = NSColor.Clear;
                 view.Bordered = false;
